@@ -5,7 +5,6 @@ import javax.swing.*;
 public class VarComposta {
     public static void AlunoComposto(){
         int aluno= Integer.parseInt(JOptionPane.showInputDialog("Informe a quantidade de alunos: "));
-        float somanotas=0;
         String []alunos= new String[aluno];
         int[] notas = new int[3];
         float[] media= new float[3];

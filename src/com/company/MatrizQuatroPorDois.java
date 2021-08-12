@@ -17,10 +17,10 @@ public class MatrizQuatroPorDois {
                 if (i==0 && j==0 ||i==0 && j==1){
                     somaLinha+=matQuatroXDois[i][j];
                 }
-                System.out.print(matQuatroXDois[i][j]+"\t");
                 if (j==1) {
                     mults *= matQuatroXDois[i][j];
                 }
+                System.out.print(matQuatroXDois[i][j]+"\t");
             }
             System.out.println("");
         }
