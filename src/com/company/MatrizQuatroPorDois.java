@@ -26,8 +26,7 @@ public class MatrizQuatroPorDois {
         }
         System.out.println("\n A multiplicação dos valores da segunda coluna é: "+ RED + mults + RESET);
         System.out.println("\n A multiplicação dos valores da segunda coluna é: "+ RED + mults + RESET);
-        System.out.println("\n A soma dos valores da primeira linha é: "+ RED + somaLinha + RESET);
-        System.out.println("\n A soma dos valores da matriz é: "+RED + somaArray + RESET);
+
 
     }
 }
